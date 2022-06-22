@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Astronauta</title>
+</head>
+
+<body>
+    <h1>Liga dos Astronautas</h1>
+    <form action="">
+        <label for="name">Nome:</label required>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="pwd">Senha:</label>
+            <input type="password" name="pwd" id="pwd" required>
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Data de nascimento:</label>
+            <input type="date" id="birthday" name="birthday">
+            <label for="photo">Carregar foto:</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <br>
+        <div>
+            <label for="Pais">Nacionalidade:</label>
+            <select name="Pais" id="Pais">
+                <option value="Russia">Russia</option>
+                <option value="EUA">EUA</option>
+            </select>
+            <label for="genero">Genero:</label>
+            <input type="radio" id="M" name="genero" value="Masculino">
+            <label for="M">Masculino</label>
+            <input type="radio" id="F" name="genero" value="Feminino">
+            <label for="F">Feminino</label>
+        </div>
+
+        <div>
+            <h3>principais qualidades:</h3>
+            <input type="checkbox" id="hb1" name="hb1" value="Inteligencia">
+            <label for="hb1">Inteligencia |</label>
+            <input type="checkbox" id="hb2" name="hb2" value="Resiliencia">
+            <label for="hb2">Resiliencia |</label>
+            <input type="checkbox" id="hb3" name="hb3" value="PreparoFisico">
+            <label for="hb3">Preparo Fisico |</label>
+            <input type="checkbox" id="hb4" name="hb4" value="Educacao">
+            <label for="hb4">Educacao</label>
+
+        </div>
+        <br>
+        <div>
+
+            <textarea name="description" id="description" rows="10" cols="30"
+                placeholder="Porque gostaria de ser um astronauta?"></textarea>
+            <br>
+        </div>
+        <div>
+            <input type="submit" value="Criar">
+            <input type="reset" value="Resetar">
+
+        </div>
+    </form>
+</body>
+
+</html>
